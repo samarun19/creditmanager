@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">990d959588a3f15074951e3572fccd78</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5d0d9595a6a3f150e6d4968ea7869978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>m2m_app_config_theme_5d0d9595a6a3f150e6d4968ea7869978</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:07</sys_updated_on>
+        <theme display_value="Light Theme">d10d9595fca3f15050834758ce6a8779</theme>
+        <ux_app_configuration display_value="AVA Credit Manager Config">050d959547a3f150185e1a8bd36d4318</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

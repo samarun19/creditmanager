@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>AVA Credit Manager - task</name>
+        <roles/>
+        <source_table>task</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>sam19</sys_created_by>
+        <sys_created_on>2024-01-04 11:50:16</sys_created_on>
+        <sys_id>deeb9d1547a3f150185e1a8bd36d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AVA Credit Manager - task</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_search_source_deeb9d1547a3f150185e1a8bd36d43c9</sys_update_name>
+        <sys_updated_by>sam19</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:50:16</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=deeb9d1547a3f150185e1a8bd36d43c9"/>
+</record_update>

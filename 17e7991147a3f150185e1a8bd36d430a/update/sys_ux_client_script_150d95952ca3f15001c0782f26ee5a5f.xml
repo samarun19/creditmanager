@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Article page">9d0d95956ca3f15020f41bdb98688d64</macroponent>
+        <name>Show Delete Comment Alert</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api
+}) {
+    api.emit("NOW_UXF_PAGE#ADD_NOTIFICATIONS", {
+        items: [{
+            id: "deleteCommentAlert",
+            status: "info",
+            icon: "info-circle-outline",
+            content: "Comment deleted.",
+            action: {
+                type: "dismiss"
+            }
+        }],
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:09</sys_created_on>
+        <sys_id>150d95952ca3f15001c0782f26ee5a5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Delete Comment Alert</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_client_script_150d95952ca3f15001c0782f26ee5a5f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:09</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

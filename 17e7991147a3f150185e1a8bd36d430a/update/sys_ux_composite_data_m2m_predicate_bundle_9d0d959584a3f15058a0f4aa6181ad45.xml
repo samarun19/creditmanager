@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">190d9595c5a3f150c63a6769a02e684b</dataset>
+        <order/>
+        <predicate_bundle display_value="My Tasks - Task bundle">990d959574a3f1502f45062f33a68a46</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:07</sys_created_on>
+        <sys_id>9d0d959584a3f15058a0f4aa6181ad45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_9d0d959584a3f15058a0f4aa6181ad45</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:07</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

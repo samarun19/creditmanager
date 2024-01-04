@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SAVE_RELAY_110d95950ba3f150053bd3b73568e863</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Glide Form 1 SAVE Relay (Tasks Default)</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:09</sys_created_on>
+        <sys_id>4d0d9595f1a3f1505428e4bf02dfa340</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide Form 1 SAVE Relay (Tasks Default)</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_event_4d0d9595f1a3f1505428e4bf02dfa340</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:09</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d0d9595f1a3f1505428e4bf02dfa340"/>
+</record_update>

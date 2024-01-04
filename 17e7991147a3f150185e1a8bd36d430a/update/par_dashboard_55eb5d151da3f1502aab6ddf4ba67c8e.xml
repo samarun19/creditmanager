@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience/>
+        <grid>48</grid>
+        <name>AVA Credit Manager</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>sam19</sys_created_by>
+        <sys_created_on>2024-01-04 11:50:12</sys_created_on>
+        <sys_id>55eb5d151da3f1502aab6ddf4ba67c8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AVA Credit Manager</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>par_dashboard_55eb5d151da3f1502aab6ddf4ba67c8e</sys_update_name>
+        <sys_updated_by>sam19</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:50:12</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+</record_update>

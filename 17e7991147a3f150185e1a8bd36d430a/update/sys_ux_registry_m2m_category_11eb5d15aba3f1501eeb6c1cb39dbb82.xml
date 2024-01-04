@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_registry_m2m_category">
+    <sys_ux_registry_m2m_category action="INSERT_OR_UPDATE">
+        <experience_category display_value="Workspace">afb4e3e173322010f0ca1e666bf6a726</experience_category>
+        <page_registry display_value="AVA Credit Manager">91eb5d151ea3f150e888d3c799d4c796</page_registry>
+        <sys_class_name>sys_ux_registry_m2m_category</sys_class_name>
+        <sys_created_by>sam19</sys_created_by>
+        <sys_created_on>2024-01-04 11:50:12</sys_created_on>
+        <sys_id>11eb5d15aba3f1501eeb6c1cb39dbb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_registry_m2m_category_11eb5d15aba3f1501eeb6c1cb39dbb82</sys_update_name>
+        <sys_updated_by>sam19</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:50:12</sys_updated_on>
+    </sys_ux_registry_m2m_category>
+</record_update>

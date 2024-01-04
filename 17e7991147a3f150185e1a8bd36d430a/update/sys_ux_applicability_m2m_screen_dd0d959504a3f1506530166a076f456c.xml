@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">990d959588a3f15074951e3572fccd78</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">1d0d95955da3f150a66201ef379ff76c</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:07</sys_created_on>
+        <sys_id>dd0d959504a3f1506530166a076f456c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_dd0d959504a3f1506530166a076f456c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:07</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

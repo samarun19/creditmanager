@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <evam_definition display_value="">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>AVA Credit Manager AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="ava-credit-manager Search Profile">15eb5d1503a3f150d9b6698b4a5a8695</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>sam19</sys_created_by>
+        <sys_created_on>2024-01-04 11:50:12</sys_created_on>
+        <sys_id>15eb5d1544a3f150462954ca4bb2b18c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AVA Credit Manager AI Search Configuration</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_search_context_config_15eb5d1544a3f150462954ca4bb2b18c</sys_update_name>
+        <sys_updated_by>sam19</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:50:12</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=15eb5d1544a3f150462954ca4bb2b18c"/>
+</record_update>

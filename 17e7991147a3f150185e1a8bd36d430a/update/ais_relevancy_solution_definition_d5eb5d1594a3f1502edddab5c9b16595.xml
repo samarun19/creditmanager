@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ais_relevancy_solution_definition">
+    <ais_relevancy_solution_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <capability display_value="Search Relevancy">458c3b2ab72300100e173307fe11a923</capability>
+        <current_solution_version/>
+        <dataset_language>en</dataset_language>
+        <fields>signal_json</fields>
+        <filter table="ais_relevancy_training_staging">sys_created_onONLast 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()^search_profile=15eb5d1503a3f150d9b6698b4a5a8695^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()"/>
+            <item display_table="ais_search_profile" display_value="ava-credit-manager Search Profile" endquery="false" field="search_profile" goto="false" newquery="false" operator="=" or="false" value="15eb5d1503a3f150d9b6698b4a5a8695"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <profile display_value="ava-credit-manager Search Profile">15eb5d1503a3f150d9b6698b4a5a8695</profile>
+        <request_source>api</request_source>
+        <solution_label>ais_relevancy_15eb5d1503a3f150d9b6698b4a5a8695</solution_label>
+        <solution_name>ml_x_snc_sn_workspace_start_global_ais_relevancy_15eb5d1503a3f150d9b6698b4a5a8695</solution_name>
+        <solution_parameters/>
+        <solution_properties>{"trainingMode":"generateFeatureVectorsandTrain","algorithm":"liblinear"}</solution_properties>
+        <stopwords>a6282a25533333008c5bddeeff7b12c3</stopwords>
+        <sys_class_name>ais_relevancy_solution_definition</sys_class_name>
+        <sys_created_by>sam19</sys_created_by>
+        <sys_created_on>2024-01-04 11:50:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d5eb5d1594a3f1502edddab5c9b16595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ais_relevancy_15eb5d1503a3f150d9b6698b4a5a8695</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>ais_relevancy_solution_definition_d5eb5d1594a3f1502edddab5c9b16595</sys_update_name>
+        <sys_updated_by>sam19</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:50:12</sys_updated_on>
+        <table>ais_relevancy_training_staging</table>
+        <training_frequency>every_30_days</training_frequency>
+        <triggered_source/>
+        <word_vector_corpus/>
+    </ais_relevancy_solution_definition>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">dd0d9595b3a3f15022dcbb653e89a16f</macroponent>
+        <name>My task page redirection</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        state,
+        emit,
+        data
+    } = api;
+    let sysId = "";
+    let table = "";
+    try {
+        sysId = data.look_up_record_3.result.sysapproval.value;
+        let tableDisplayValue = data.look_up_record_3.result.sysapproval.displayValue;
+        let tableStartsWith = tableDisplayValue.substring(0, 3);
+
+        if (tableStartsWith == "INC") {
+            table = "incident";
+        }else if (tableStartsWith == "RIT") {
+            table = "sc_req_item";
+        } else {
+            table = "task";
+        }
+
+        if (state.taskcard && sysId) {
+            api.setState("taskcard", "");
+            emit('NAV_ITEM_SELECTED', {
+                route: "rec_task",
+                fields: {
+                    table,
+                    sysId,
+                    approvalId: api.state.taskcard
+                }
+            });
+        }
+    } catch (e) {}
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-01-04 11:55:08</sys_created_on>
+        <sys_id>9d0d9595e8a3f1501002c528d5fe3061</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My task page redirection</sys_name>
+        <sys_package display_value="AVA Credit Manager" source="x_1003392_ava_cr_0">17e7991147a3f150185e1a8bd36d430a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AVA Credit Manager">17e7991147a3f150185e1a8bd36d430a</sys_scope>
+        <sys_update_name>sys_ux_client_script_9d0d9595e8a3f1501002c528d5fe3061</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-04 11:55:08</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>
